@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "catalogo-native",
+    "name": "Catálogo Digital",
     "slug": "catalogo-native",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -19,7 +19,12 @@
       "predictiveBackGestureEnabled": false
     },
     "web": {
+      "bundler": "metro",
+      "output": "single",
       "favicon": "./assets/favicon.png"
+    },
+    "experiments": {
+      "baseUrl": "/catalogo-digital-rn"
     }
   }
 }

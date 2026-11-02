@@ -2,6 +2,12 @@
 
 Catálogo (ou cardápio) digital para comércio local, feito com React Native. O cliente navega pelos produtos, monta o pedido e envia tudo pronto pelo WhatsApp do estabelecimento.
 
+## Demo online
+
+**[devgdamasceno.github.io/catalogo-digital-rn](https://devgdamasceno.github.io/catalogo-digital-rn/)**
+
+Versão web do app, publicada automaticamente no GitHub Pages a cada push na `main`. Para a melhor experiência, abra no celular ou reduza a largura da janela do navegador. O número do WhatsApp da demo é fictício.
+
 ## Funcionalidades
 
 - Lista de produtos com foto, descrição e preço em R$
