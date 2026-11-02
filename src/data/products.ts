@@ -1,6 +1,8 @@
 import { Product } from '../types';
 
-const img = (seed: string) => `https://picsum.photos/seed/${seed}/400/300`;
+// Fotos gratuitas do Pexels (https://www.pexels.com/license/)
+const img = (id: number) =>
+  `https://images.pexels.com/photos/${id}/pexels-photo-${id}.jpeg?auto=compress&cs=tinysrgb&w=600`;
 
 export const products: Product[] = [
   {
@@ -9,7 +11,7 @@ export const products: Product[] = [
     description: 'Pão brioche, hambúrguer 150g, queijo, alface e tomate.',
     price: 24.9,
     category: 'Lanches',
-    image: img('xburger'),
+    image: img(1199958),
   },
   {
     id: '2',
@@ -17,7 +19,7 @@ export const products: Product[] = [
     description: 'Hambúrguer 150g, bacon crocante, queijo cheddar e maionese da casa.',
     price: 29.9,
     category: 'Lanches',
-    image: img('xbacon'),
+    image: img(33068078),
   },
   {
     id: '3',
@@ -25,7 +27,7 @@ export const products: Product[] = [
     description: 'Peito de frango empanado, picles e molho especial.',
     price: 26.5,
     category: 'Lanches',
-    image: img('frango'),
+    image: img(7962694),
   },
   {
     id: '4',
@@ -33,7 +35,7 @@ export const products: Product[] = [
     description: 'Porção de 300g com sal e orégano.',
     price: 18,
     category: 'Porções',
-    image: img('batata'),
+    image: img(4109234),
   },
   {
     id: '5',
@@ -41,7 +43,7 @@ export const products: Product[] = [
     description: 'Anéis de cebola empanados, 12 unidades.',
     price: 20,
     category: 'Porções',
-    image: img('onion'),
+    image: img(6941051),
   },
   {
     id: '6',
@@ -49,7 +51,7 @@ export const products: Product[] = [
     description: '350ml. Coca-Cola, Guaraná ou Sprite.',
     price: 6,
     category: 'Bebidas',
-    image: img('refri'),
+    image: img(39720),
   },
   {
     id: '7',
@@ -57,7 +59,7 @@ export const products: Product[] = [
     description: '400ml. Laranja, limão ou maracujá.',
     price: 9.5,
     category: 'Bebidas',
-    image: img('suco'),
+    image: img(8679338),
   },
   {
     id: '8',
@@ -65,6 +67,6 @@ export const products: Product[] = [
     description: 'Brownie quente com bola de sorvete de creme.',
     price: 16,
     category: 'Sobremesas',
-    image: img('brownie'),
+    image: img(34312800),
   },
 ];
